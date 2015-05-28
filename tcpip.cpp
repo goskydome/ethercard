@@ -542,7 +542,7 @@ static uint16_t www_client_internal_datafill_cb(uint8_t fd) {
                               "$F$S"
                               "Accept: */*\r\n"
                               "Content-Length: $D\r\n"
-                              "Content-Type: application/x-www-form-urlencoded\r\n"
+                              "Content-Type: application/json\r\n"
                               "\r\n"
                               "$S"), client_urlbuf,
                          client_hoststr,
